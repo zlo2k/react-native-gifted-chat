@@ -41,7 +41,7 @@ export function Day ({
 
     if (now.diff(date, 'days') < 1)
       return date.calendar(now, {
-        sameDay: '[Today]',
+        sameDay: '[Сегодня]',
         ...dateFormatCalendar,
       })
 
